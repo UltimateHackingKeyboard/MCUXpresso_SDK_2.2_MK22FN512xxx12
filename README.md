@@ -1,4 +1,4 @@
-# MCUXpresso_SDK_2.2_MK22FN512xxx12
+# MCUXpresso SDK v2.2 for MK22FN512xxx12
 
 This repository contains the [MCUXpresso SDK](http://www.nxp.com/products/software-and-tools/run-time-software/mcuxpresso-software-and-tools/mcuxpresso-software-development-kit-sdk:MCUXpresso-SDK) v2.2 (formerly Kinetis SDK) built for [MK22FN512xxx12](http://www.nxp.com/products/microcontrollers-and-processors/arm-processors/kinetis-cortex-m-mcus/k-series-performance-m4/k2x-usb/kinetis-k22-120-mhz-cost-effective-full-speed-usb-microcontrollers-mcus-based-on-arm-cortex-m4-core:K22_120) processors, all toolchains, Linux.
 
