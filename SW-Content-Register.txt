@@ -1,0 +1,102 @@
+Release Name: MCUXpresso Software Development Kit (SDK)
+Release Version: 2.2.0
+
+C++ option-parser          version: NA                                       
+                           Location: middleware/multicore_2.2.0/erpc/erpcgen/
+                           src/options.cpp                                   
+                           Description: C++ option-parser                    
+                           License: Brad Appleton's license                  
+                           Author: Brad Appleton    bradapp@enteract.com     
+                           name: C++ option-parser                           
+                           Format: Plain Text                                
+                           URL: http://www.bradapp.com/ftp/src/libs/C++/Optio
+                           ns.html                                           
+
+CMSIS Core header files    Author: ARM                                       
+                           parentversion: 4.5                                
+                           URL: http://silver.arm.com                        
+                           name: CMSIS Core header files                     
+                           Format: source code                               
+                           License: Open Source - BSD-3-Clause               
+                           Location: CMSIS/Include                           
+                           version: 4.3 (CMSIS Download 4.5)                 
+                           Description: Industry-standard header files       
+                           distributes by ARM for cortex-M cores             
+
+CPP Template               version: NA                                       
+                           Location: middleware/multicore_2.2.0/erpc/erpcgen/
+                           src/cpptemplate                                   
+                           Description: CPP Template                         
+                           License: Open Source - MIT                        
+                           Author: Ryan Ginstrom & Martinho Fernandes        
+                           name: CPP Template                                
+                           Format: source code                               
+
+DMA Manager                Format: source code                               
+                           Location: middleware/dma_manager_2.1.0            
+                           Description: A software component used for manage 
+                           on-chip DMA channel resources.                    
+                           name: DMA Manager                                 
+                           License: Open Source - BSD-3-Clause               
+                           version: 2.1.0                                    
+                           Author: Freescale                                 
+
+KSDK CMSIS Peripheral      Author: Freescale                                 
+Drivers                    version: 2.x.x                                    
+                           Format: source code                               
+                           Description: CMSIS Peripheral drivers are designed
+                           to provide hardware independent APIs which make   
+                           application reusable across a wide range of       
+                           supported microcontroller devices.                
+                           name: KSDK CMSIS Peripheral Drivers               
+                           Location: devices/<device>/cmsis_drivers          
+                           License: Open Source - Apache 2.0 & BSD-3-Clause  
+
+KSDK Peripheral Driver     Description: Peripherral drivers are designed for 
+                           the most common use cases indentified for         
+                           the underlying hardware block.                    
+                           Author: Freescale                                 
+                           Version: 2.x.x                                    
+                           License: Open Source - BSD-3-Clause               
+                           Format: source code                               
+                           Location: devices/<device_name>/drivers           
+
+Multicore SDK              version: 2.2.0                                    
+                           Location: middleware/multicore_2.2.0              
+                           Description: Freescale Multicore Software         
+                           Development Kit.                                  
+                           License: Proprietary. See LA_OPT_Base_License.htm.
+                           Author: Freescale                                 
+                           name: Multicore SDK                               
+                           Format: source code                               
+
+SD MMC Card middleware     name: SD MMC Card middleware                      
+                           Location: middleware/sdmmc_2.1.2                  
+                           License: Open Source - BSD-3-Clause               
+                           Description: A software componnet support SD card,
+                           eMMC card.                                        
+                           Author: Freescale                                 
+                           version: 2.1.2                                    
+                           Format: source code                               
+
+The Bus Pirate             version: NA                                       
+                           Location: middleware/multicore_2.2.0/erpc/erpc_c/p
+                           ort/serial.h, middleware/multicore_2.2.0/erpc/erpc
+                           _c/port/serial.cpp                                
+                           Description: OS independent serial interface      
+                           License: Open Source - CC0 (Public Domain         
+                           Dedication License)                               
+                           Author: Community                                 
+                           name: The Bus Pirate                              
+                           Format: source code                               
+                           URL: http://code.google.com/p/the-bus-pirate/     
+
+USB                        version: 1.6.3                                    
+                           Location: middleware/usb_1.6.3                    
+                           Description: Freescale USB stack. This is a       
+                           version of the USB stack that has been integrated 
+                           with the MCUXpresso SDK.                          
+                           License: Open Source - BSD-3-Clause               
+                           Author: Freescale                                 
+                           name: USB                                         
+                           Format: source code                               
