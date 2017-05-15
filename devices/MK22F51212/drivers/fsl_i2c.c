@@ -161,6 +161,9 @@ static i2c_isr_t s_i2cMasterIsr;
 /*! @brief Pointer to slave IRQ handler for each instance. */
 static i2c_isr_t s_i2cSlaveIsr;
 
+/*! @brief Extern counter to ensure that I2C is always alive */
+volatile uint32_t I2C_Watchdog;
+
 /*******************************************************************************
  * Codes
  ******************************************************************************/
@@ -1166,6 +1169,8 @@ void I2C_MasterTransferHandleIRQ(I2C_Type *base, void *i2cHandle)
 
     /* Clear the interrupt flag. */
     base->S = kI2C_IntPendingFlag;
+
+    I2C_Watchdog++;
 
     /* Check transfer complete flag. */
     result = I2C_MasterTransferRunStateMachine(base, handle, &isDone);
